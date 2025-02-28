@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator # type: ignore
 
 # Load model yang telah dilatih
 model = load_model('cnn_model.h5')
